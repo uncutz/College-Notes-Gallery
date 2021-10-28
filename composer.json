@@ -1,0 +1,17 @@
+{
+    "name": "johannespanzer/survey",
+    "type": "project",
+    "authors": [
+        {
+            "name": "johannespanzer",
+            "email": "johannes-panzer@gmx.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Backend\\" : "source/",
+            "Http\\" : "Http/"
+        }
+    }
+}
